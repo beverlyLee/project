@@ -7,7 +7,7 @@ public class TestMain {
         System.out.println("hello world");
         getDate();
     }
-    //test
+
     private static void getDate(){
         SimpleDateFormat sdf=new SimpleDateFormat("YYYY-MM-DD HH-mm-ss");
         Date date=new Date();
